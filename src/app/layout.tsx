@@ -30,22 +30,15 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     type: 'website',
-    url,
-    title,
-    description,
+    url: 'https://aryajohary.github.io/MyPortfolio/',
+    title: 'Arya\'s Portfolio',
+    description: 'This is my professional portfolio where I have showcased my previous internships, projects and achievements.',
     siteName: title,
     images: [
       {
-        url: '/images/open-graph-sagar.png',
+        url: '../public/images/arya-headshot.jpg',
       },
     ],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title,
-    description,
-    creator: '@aryajohary',
-    images: '/images/open-graph-sagar.png',
   },
   icons: {
     icon: '/favicon.ico',
