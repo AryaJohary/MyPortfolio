@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     siteName: 'Github',
     images: [
       {
-        url: 'https://drive.google.com/file/d/1zKocYNL1JjtlwYGsNLuFWsfMvHhKbTbH/view?usp=sharing',
+        url: 'https://github.com/AryaJohary/Image/blob/main/Arya_Kumar_Johary_2.png',
       },
     ],
     
