@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     siteName: 'Github',
     images: [
       {
-        url: 'https://www.cameraegg.org/wp-content/uploads/2016/01/Nikon-D500-Sample-Images-7.jpg',
+        url: 'https://i.imgur.com/CcFrWYG.png',
       },
     ],
     
