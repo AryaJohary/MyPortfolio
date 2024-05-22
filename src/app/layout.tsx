@@ -6,6 +6,7 @@ import './globals.css';
 import Header from '@/components/layout/header';
 import { Providers } from '@/lib/providers';
 import Footer from '@/components/layout/footer';
+import { Github } from 'lucide-react';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -33,7 +34,7 @@ export const metadata: Metadata = {
     url: 'https://aryajohary.github.io/MyPortfolio/',
     title: 'Arya\'s Portfolio',
     description: 'This is my professional portfolio where I have showcased my previous internships, projects and achievements.',
-    siteName: title,
+    siteName: 'Github',
     images: [
       {
         url: '../public/images/arya-headshot.jpg',
