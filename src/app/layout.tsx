@@ -7,6 +7,7 @@ import Header from '@/components/layout/header';
 import { Providers } from '@/lib/providers';
 import Footer from '@/components/layout/footer';
 import { Github } from 'lucide-react';
+import { GoogleTagManager } from '@next/third-parties/google'
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -46,7 +47,7 @@ export const metadata: Metadata = {
   },
 };
 
-const googleAnalyticsId = 'G-5F5EPQFT5R';
+const googleAnalyticsId = '';
 
 export default function RootLayout({
   children,
@@ -56,7 +57,8 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth" suppressHydrationWarning>
       <head>
-        <Script
+      <GoogleTagManager gtmId="G-5F5EPQFT5R"/>
+        {/* <Script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`}
         />
@@ -67,7 +69,7 @@ export default function RootLayout({
             gtag('js', new Date());
             gtag('config', '${googleAnalyticsId}');
           `}
-        </Script>
+        </Script> */}
       </head>
       <body className={`${inter.className} bg-gray text-gray-600 antialiased`}>
         <Providers>
