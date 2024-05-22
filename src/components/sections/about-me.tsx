@@ -46,7 +46,7 @@ const AboutMeSection = () => {
             and Machine Learning at the University of Engineering and Management,
             Jaipur. Since then, I have continuously honed my skills, tackling new
             challenges and embracing the latest technologies. Now, in my early
-            twenties, I'm building sophisticated applications using cutting-edge
+            twenties, I&apos;m building sophisticated applications using cutting-edge
             tools like Java, JSP, MySQL, React.js, Node.js, and Unity.
           </Typography>
           <Typography>

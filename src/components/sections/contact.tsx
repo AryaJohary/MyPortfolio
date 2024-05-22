@@ -48,7 +48,7 @@ const ContactSection = () => {
           <Tag label="Get in touch" />
         </div>
         <Typography variant="subtitle" className="max-w-xl text-center">
-          What's next? Don&apos;t hesitate to get in touch if you&apos;re in need of
+          What&apos;s next? Don&apos;t hesitate to get in touch if you&apos;re in need of
           a developer, have any questions, or just want to connect.
         </Typography>
       </div>
