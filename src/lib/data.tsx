@@ -1,27 +1,26 @@
 import { Github, Twitter, LinkedinIcon } from 'lucide-react';
 
-import LogoJavascript from './public/images/logos/icon-javascript.svg';
-import LogoReact from './public/images/logos/icon-react.svg';
-import LogoNodejs from './public/images/logos/icon-nodejs.svg';
-import LogoCPP from './public/images/logos/icons8-c++.svg';
-import LogoTailwindcss from './public/images/logos/icon-tailwindcss.svg';
-import LogoGit from './public/images/logos/icon-git.svg';
-import LogoJava from './public/images/logos/icons8-java-64.svg';
-import LogoPython from './public/images/logos/icons8-python-64.svg';
+import LogoJavascript from '../../public/images/logos/icon-javascript.svg';
+import LogoReact from '../../public/images/logos/icon-react.svg';
+import LogoNodejs from '../../public/images/logos/icon-nodejs.svg';
+import LogoCPP from '../../public/images/logos/icons8-c++.svg';
+import LogoTailwindcss from '../../public/images/logos/icon-tailwindcss.svg';
+import LogoGit from '../../public/images/logos/icon-git.svg';
+import LogoJava from '../../public/images/logos/icons8-java-64.svg';
+import LogoPython from '../../public/images/logos/icons8-python-64.svg';
+import LogoAICTE from '../../public/images/logos/AICTE Logo Vector.svg';
 
-import LogoAICTE from './public/images/logos/AICTE Logo Vector.svg';
+import ProjectEMS from '../../public/images/projects/ems.png';
+import ProjectLDC from '../../public/images/projects/ldc.png';
+import ProjectPC from '../../public/images/projects/pc.png';
+import ProjectZR from '../../public/images/projects/zr.png';
+import ProjectM from '../../public/images/projects/mousey.png';
 
-import ProjectEMS from './public/images/projects/ems.png';
-import ProjectLDC from './public/images/projects/ldc.png';
-import ProjectPC from './public/images/projects/pc.png';
-import ProjectZR from './public/images/projects/zr.png';
-import ProjectM from './public/images/projects/mousey.png';
-
-import ProgrammingInJava from './public/images/certificates/ProgrammingInJava.jpg';
-import IntroToC from './public/images/certificates/Introduction To Programming in C.jpg';
-import ProblemSolvingC from './public/images/certificates/Problem Solving Through Programming in C.jpg';
-import SoftwareTesting from './public/images/certificates/Software Testing.jpg';
-import TheJoyOfPython from './public/images/certificates/The Joy of Computing using Python.jpg';
+import ProgrammingInJava from '../../public/images/certificates/ProgrammingInJava.jpg';
+import IntroToC from '../../public/images/certificates/Introduction To Programming in C.jpg';
+import ProblemSolvingC from '../../public/images/certificates/Problem Solving Through Programming in C.jpg';
+import SoftwareTesting from '../../public/images/certificates/Software Testing.jpg';
+import TheJoyOfPython from '../../public/images/certificates/The Joy of Computing using Python.jpg';
 
 
 import {
