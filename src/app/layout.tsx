@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     siteName: 'Github',
     images: [
       {
-        url: 'https://ibb.co/zGk97Wt',
+        url: 'https://drive.google.com/file/d/1zKocYNL1JjtlwYGsNLuFWsfMvHhKbTbH/view?usp=sharing',
       },
     ],
     
