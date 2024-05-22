@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   },
 };
 
-const googleAnalyticsId = process.env.GOOGLE_ANALYTICS_ID;
+const googleAnalyticsId = 'G-ZR4V08CFXQ';
 
 export default function RootLayout({
   children,
@@ -71,6 +71,7 @@ export default function RootLayout({
             gtag('config', '${googleAnalyticsId}');
           `}
           </Script>
+
         </head>
       ) : null}
       <body className={`${inter.className} bg-gray text-gray-600 antialiased`}>
