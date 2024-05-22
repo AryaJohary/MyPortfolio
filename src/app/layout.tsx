@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   },
 };
 
-const googleAnalyticsId = 'G05F5EPQFT5R';
+const googleAnalyticsId = 'G-05F5EPQFT5R';
 
 export default function RootLayout({
   children,
@@ -71,7 +71,6 @@ export default function RootLayout({
         </Script>
       </head>
       <body className={`${inter.className} bg-gray text-gray-600 antialiased`}>
-      <GoogleAnalytics gaId="G-5F5EPQFT5R" />
         <Providers>
           <Header />
           <main className="flex min-h-screen w-full flex-col">{children}</main>
