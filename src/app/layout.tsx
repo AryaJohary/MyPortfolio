@@ -37,12 +37,13 @@ export const metadata: Metadata = {
     siteName: 'Github',
     images: [
       {
-        url: '/public/images/arya-headshot.jpg',
+        url: 'https://ibb.co/zGk97Wt',
       },
     ],
+    
   },
   icons: {
-    icon: '../public/images/icon.png',
+    icon: '/public/images/icon.png',
   },
 };
 
