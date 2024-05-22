@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   },
 };
 
-const googleAnalyticsId = 'G-ZR4V08CFXQ';
+const googleAnalyticsId = 'G-SWTYEE7GJ8';
 
 export default function RootLayout({
   children,
