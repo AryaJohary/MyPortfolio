@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ['latin'] });
 const title = 'Arya Johary | Java Developer';
 const description =
   'A self-proclaimed designer who specializes in Java Development, from Ludhiana, India.';
-const url = 'https://aryajohary.dev';
+const url = 'https://aryajohary.github.io/MyPortfolio/';
 
 export const metadata: Metadata = {
   metadataBase: new URL(url),
@@ -42,9 +42,7 @@ export const metadata: Metadata = {
     ],
   },
   icons: {
-    icon: '/favicon.ico',
-    shortcut: '/favicon-16x16.png',
-    apple: '/apple-touch-icon.png',
+    icon: '../public/images/icon.png',
   },
 };
 
