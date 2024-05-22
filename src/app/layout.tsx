@@ -57,11 +57,11 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth" suppressHydrationWarning>
         <head>
-          <Script
+          <script
             async
             src={`https://www.googletagmanager.com/gtag/js?id=G-ZR4V08CFXQ`}
-          ></Script>
-          <Script id="google-anayltics-script">
+          ></script>
+          <script id="google-anayltics-script">
             {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -69,7 +69,7 @@ export default function RootLayout({
           
             gtag('config', 'G-ZR4V08CFXQ');
           `}
-          </Script>
+          </script>
         </head>
       <body className={`${inter.className} bg-gray text-gray-600 antialiased`}>
         <Providers>
