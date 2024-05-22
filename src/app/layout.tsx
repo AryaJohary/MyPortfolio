@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   },
 };
 
-const googleAnalyticsId = '';
+const googleAnalyticsId = 'G05F5EPQFT5R';
 
 export default function RootLayout({
   children,
@@ -57,7 +57,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth" suppressHydrationWarning>
       <head>
-        {/* <Script
+        <Script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`}
         />
@@ -68,7 +68,7 @@ export default function RootLayout({
             gtag('js', new Date());
             gtag('config', '${googleAnalyticsId}');
           `}
-        </Script> */}
+        </Script>
       </head>
       <body className={`${inter.className} bg-gray text-gray-600 antialiased`}>
       <GoogleAnalytics gaId="G-5F5EPQFT5R" />
