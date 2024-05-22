@@ -17,10 +17,10 @@ import ProjectZR from '../../public/images/projects/zr.png';
 import ProjectM from '../../public/images/projects/mousey.png';
 
 import ProgrammingInJava from '../../public/images/certificates/ProgrammingInJava.jpg';
-import IntroToC from '../../public/images/certificates/IntroductionToProgramminginC.jpg';
-import ProblemSolvingC from '../../public/images/certificates/ProblemSolvingThroughProgramminginC.jpg';
+import IntroToC from '../../public/images/certificates/IntroToC.jpg';
+import ProblemSolvingC from '../../public/images/certificates/ProblemSolvinginC.jpg';
 import SoftwareTesting from '../../public/images/certificates/SoftwareTesting.jpg';
-import TheJoyOfPython from '../../public/images/certificates/TheJoyofComputingusingPython.jpg';
+import TheJoyOfPython from '../../public/images/certificates/TheJoyofPython.jpg';
 
 
 import {
