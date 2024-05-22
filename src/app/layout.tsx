@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: 'https://aryajohary.github.io/MyPortfolio/',
-    title: 'Arya\'s Portfolio',
+    title: "Arya's Portfolio",
     description: 'This is my professional portfolio where I have showcased my previous internships, projects and achievements.',
     siteName: 'Github',
     images: [
@@ -40,7 +40,6 @@ export const metadata: Metadata = {
         url: 'https://github.com/AryaJohary/Image/blob/main/arya-open-graph.jpg?raw=true',
       },
     ],
-    
   },
   icons: {
     icon: '../../public/images/icon.svg',
@@ -56,21 +55,20 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="!scroll-smooth" suppressHydrationWarning>
-        <head>
-          <script
-            async
-            src={`https://www.googletagmanager.com/gtag/js?id=G-ZR4V08CFXQ`}
-          ></script>
-          <script id="google-anayltics-script">
-            {`
+      <head>
+        <Script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`}
+        />
+        <Script id="google-analytics-script" strategy="afterInteractive">
+          {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-          
-            gtag('config', 'G-ZR4V08CFXQ');
+            gtag('config', '${googleAnalyticsId}');
           `}
-          </script>
-        </head>
+        </Script>
+      </head>
       <body className={`${inter.className} bg-gray text-gray-600 antialiased`}>
         <Providers>
           <Header />
