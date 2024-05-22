@@ -57,7 +57,6 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth" suppressHydrationWarning>
       <head>
-        <GoogleAnalytics gaId="G-5F5EPQFT5R" />
         {/* <Script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`}
@@ -72,6 +71,7 @@ export default function RootLayout({
         </Script> */}
       </head>
       <body className={`${inter.className} bg-gray text-gray-600 antialiased`}>
+      <GoogleAnalytics gaId="G-5F5EPQFT5R" />
         <Providers>
           <Header />
           <main className="flex min-h-screen w-full flex-col">{children}</main>
