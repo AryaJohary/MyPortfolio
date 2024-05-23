@@ -5,7 +5,9 @@ import SkillsSection from '@/components/sections/skills';
 import ExperienceSection from '@/components/sections/experiences';
 import CertificationSection from '@/components/sections/certifications';
 import WorkSection from '@/components/sections/work';
-import { GoogleAnalytics } from 'nextjs-google-analytics';
+
+
+// Rest of the code...
 
 export default function Home() {
   return (
