@@ -10,7 +10,6 @@ import { GoogleAnalytics } from 'nextjs-google-analytics';
 export default function Home() {
   return (
     <>
-      <GoogleAnalytics trackPageViews gaMeasurementId='G-05F5EPQFT5R'/>
       <HeroSection />
       <AboutMeSection />
       <SkillsSection />
@@ -18,6 +17,7 @@ export default function Home() {
       <WorkSection />
       <CertificationSection />
       <ContactSection />
+      <GoogleAnalytics />
     </>
   );
 }
