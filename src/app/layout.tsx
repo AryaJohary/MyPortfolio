@@ -6,8 +6,6 @@ import './globals.css';
 import Header from '@/components/layout/header';
 import { Providers } from '@/lib/providers';
 import Footer from '@/components/layout/footer';
-import { Github } from 'lucide-react';
-import { GoogleAnalytics } from 'nextjs-google-analytics'
 
 const inter = Inter({ subsets: ['latin'] });
 
