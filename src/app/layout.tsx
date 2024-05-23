@@ -6,6 +6,7 @@ import './globals.css';
 import Header from '@/components/layout/header';
 import { Providers } from '@/lib/providers';
 import Footer from '@/components/layout/footer';
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -83,6 +84,7 @@ export default function RootLayout({
         />
       </head>
       <body className={`${inter.className} bg-gray text-gray-600 antialiased`}>
+        <GoogleAnalytics gaId='G-05F5EPQFT5R' />
         <Providers>
           <Header />
           <main className="flex min-h-screen w-full flex-col">{children}</main>
