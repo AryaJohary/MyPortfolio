@@ -7,7 +7,7 @@ const cvpath = '../../../public/files/AryaJohary.pdf'
 const gdrivecvpath = 'https://drive.google.com/file/d/1SKZGpEgUSkaa6npMcVqLhLf9QaMRjuaq/view?usp=sharing'
 const DownloadCV = () => {
   return (
-    <Button onClick={() => window?.open(gdrivecvpath, '_blank')}>
+    <Button onClick={() => window?.open('https://drive.google.com/file/d/1SKZGpEgUSkaa6npMcVqLhLf9QaMRjuaq/view?usp=sharing', '_blank')}>
       Download CV
     </Button>
   );
