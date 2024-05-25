@@ -56,7 +56,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth" suppressHydrationWarning>
       <head>
-        {/* <Script
+        <Script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`}
         />
@@ -67,21 +67,7 @@ export default function RootLayout({
             gtag('js', new Date());
             gtag('config', '${googleAnalyticsId}');
           `}
-        </Script> */}
-        <Script
-          async
-          src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`}
-        />
-        <Script id='google-analytics-script'
-          dangerouslySetInnerHTML={{
-            __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${googleAnalyticsId}');
-          `,
-          }}
-        />
+        </Script>
       </head>
       <body className={`${inter.className} bg-gray text-gray-600 antialiased`}>
         <GoogleAnalytics gaId='G-05F5EPQFT5R' />
