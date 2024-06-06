@@ -150,7 +150,7 @@ export const PROJECTS: ProjectDetails[] = [
   {
     name: 'Password Manager Java',
     description:
-      'The Password Manager is a robust and user-friendly Java-based application designed to manage and secure passwords efficiently. Utilizing a combination of Java technologies, AES encryption, and MySQL, this project ensures the secure handling of user credentials by storing encrypted keys on SQL.',
+      'The Password Manager is a robust and user-friendly Java-based application designed to manage and secure passwords efficiently. Utilizing a combination of Java technologies, AES encryption, and MySQL, this project ensures the secure handling of user credentials by storing the encrypted keys on SQL server instead of plain text and decrypting them using a secure secret key upon retrievel.',
     url: 'https://github.com/AryaJohary/PasswordManagerJava',
     previewImage: ProjectPM,
     technologies: [
