@@ -10,6 +10,7 @@ import LogoJava from '../../public/images/logos/icons8-java-64.svg';
 import LogoPython from '../../public/images/logos/icons8-python-64.svg';
 import LogoAICTE from '../../public/images/logos/AICTE Logo Vector.svg';
 
+import ProjectPM from '../../public/images/projects/pm.png';
 import ProjectEMS from '../../public/images/projects/ems.png';
 import ProjectLDC from '../../public/images/projects/ldc.png';
 import ProjectPC from '../../public/images/projects/pc.png';
@@ -144,6 +145,19 @@ export const PROJECTS: ProjectDetails[] = [
       'Servlet',
       'HTML',
       'CSS',
+    ],
+  },
+  {
+    name: 'Password Manager Java',
+    description:
+      'The Password Manager is a robust and user-friendly Java-based application designed to manage and secure passwords efficiently. Utilizing a combination of Java technologies, AES encryption, and MySQL, this project ensures the secure handling of user credentials.',
+    url: 'https://github.com/AryaJohary/PasswordManagerJava',
+    previewImage: ProjectPM,
+    technologies: [
+      'Java',
+      'Java Swing',
+      'AES',
+      'MySQL',
     ],
   },
   {
