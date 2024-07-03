@@ -1,10 +1,12 @@
 import { Github, Twitter, LinkedinIcon } from 'lucide-react';
 
-import LogoJavascript from '../../public/images/logos/icon-javascript.svg';
-import LogoReact from '../../public/images/logos/icon-react.svg';
-import LogoNodejs from '../../public/images/logos/icon-nodejs.svg';
+
+import LogoSpring from '../../public/images/logos/icon-spring.svg';
+import LogoHibernate from '../../public/images/logos/icon-hibernate.svg';
+import LogoThymeleaf from '../../public/images/logos/icons-thymeleaf.svg';
 import LogoCPP from '../../public/images/logos/icons8-c++.svg';
 import LogoTailwindcss from '../../public/images/logos/icon-tailwindcss.svg';
+import LogoMySQL from '../../public/images/logos/icon-mysql.svg';
 import LogoGit from '../../public/images/logos/icon-git.svg';
 import LogoJava from '../../public/images/logos/icons8-java-64.svg';
 import LogoPython from '../../public/images/logos/icons8-python-64.svg';
@@ -75,14 +77,29 @@ export const SOCIAL_LINKS = [
 
 export const TECHNOLOGIES: TechDetails[] = [
   {
-    label: 'Python',
-    logo: LogoPython,
-    url: 'https://www.python.org/',
-  },
-  {
     label: 'Java',
     logo: LogoJava,
     url: 'https://www.java.com/en/',
+  },
+  {
+    label: 'Spring Boot',
+    logo: LogoSpring,
+    url: 'https://spring.io/projects/spring-boot',
+  },
+  {
+    label: 'Hibernate JPA',
+    logo: LogoHibernate,
+    url: 'https://hibernate.org/',
+  },
+  {
+    label: 'Thymeleaf',
+    logo: LogoThymeleaf,
+    url: 'https://www.thymeleaf.org/',
+  },
+  {
+    label: 'Python',
+    logo: LogoPython,
+    url: 'https://www.python.org/',
   },
   {
     label: 'C++',
@@ -90,19 +107,9 @@ export const TECHNOLOGIES: TechDetails[] = [
     url: 'https://cplusplus.com/',
   },
   {
-    label: 'Javascript',
-    logo: LogoJavascript,
-    url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
-  },
-  {
-    label: 'React',
-    logo: LogoReact,
-    url: 'https://react.dev/',
-  },
-  {
-    label: 'Node.js',
-    logo: LogoNodejs,
-    url: 'https://nodejs.org/en',
+    label: 'MySQL',
+    logo: LogoMySQL,
+    url: 'https://www.mysql.com/',
   },
   {
     label: 'Tailwindcss',
