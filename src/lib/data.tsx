@@ -3,7 +3,7 @@ import { Github, Twitter, LinkedinIcon } from 'lucide-react';
 
 import LogoSpring from '../../public/images/logos/icon-spring.svg';
 import LogoHibernate from '../../public/images/logos/icon-hibernate.svg';
-import LogoThymeleaf from '../../public/images/logos/icons-thymeleaf.svg';
+import LogoThymeleaf from '../../public/images/logos/icon-thymeleaf.svg';
 import LogoCPP from '../../public/images/logos/icons8-c++.svg';
 import LogoTailwindcss from '../../public/images/logos/icon-tailwindcss.svg';
 import LogoMySQL from '../../public/images/logos/icon-mysql.svg';
