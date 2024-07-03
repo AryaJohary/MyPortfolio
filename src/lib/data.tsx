@@ -125,7 +125,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
     endDate: new Date(2023, 7),
     currentlyWorkHere: false,
     summary: [
-      'Web Developer Internship',
+      'Web Developer Intern',
       'Collaborated with developers, designers, and interns to develop a fully functional website, which is now live and serving users effectively.',
     ],
     url:'#', // TODO:- Add the Internship Offer Letter Finanzo
