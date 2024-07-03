@@ -9,6 +9,7 @@ import LogoGit from '../../public/images/logos/icon-git.svg';
 import LogoJava from '../../public/images/logos/icons8-java-64.svg';
 import LogoPython from '../../public/images/logos/icons8-python-64.svg';
 import LogoAICTE from '../../public/images/logos/AICTE Logo Vector.svg';
+import LogoFinanzo from '../../public/images/logos/FinanzoLogo.png';
 
 import ProjectPM from '../../public/images/projects/pm.png';
 import ProjectEMS from '../../public/images/projects/ems.png';
@@ -116,6 +117,19 @@ export const TECHNOLOGIES: TechDetails[] = [
 ];
 
 export const EXPERIENCES: ExperienceDetails[] = [
+  {
+    logo: LogoFinanzo,
+    logoAlt: 'Finanzo Logo',
+    position: 'Intern',
+    startDate: new Date(2023, 5),
+    endDate: new Date(2023, 7),
+    currentlyWorkHere: false,
+    summary: [
+      'Web Developer Internship',
+      'Collaborated with developers, designers, and interns to develop a fully functional website, which is now live and serving users effectively.',
+    ],
+    url:'#', // TODO:- Add the Internship Offer Letter Finanzo
+  },
   {
     logo: LogoAICTE,
     logoAlt: 'Aicte Logo',
