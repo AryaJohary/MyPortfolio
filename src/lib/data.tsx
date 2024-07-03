@@ -1,12 +1,12 @@
 import { Github, Twitter, LinkedinIcon } from 'lucide-react';
 
 
-import LogoSpring from '../../public/images/logos/icon-spring.svg';
-import LogoHibernate from '../../public/images/logos/icon-hibernate.svg';
-import LogoThymeleaf from '../../public/images/logos/icon-thymeleaf.svg';
-import LogoCPP from '../../public/images/logos/icons8-c++.svg';
+import LogoSpring from '../../public/images/logos/resized/icon-spring.svg';
+import LogoHibernate from '../../public/images/logos/resized/icon-hibernate.svg';
+import LogoThymeleaf from '../../public/images/logos/resized/icon-thymeleaf.svg';
+import LogoMySQL from '../../public/images/logos/resized/icon-mysql.svg';
 import LogoTailwindcss from '../../public/images/logos/icon-tailwindcss.svg';
-import LogoMySQL from '../../public/images/logos/icon-mysql.svg';
+import LogoCPP from '../../public/images/logos/icons8-c++.svg';
 import LogoGit from '../../public/images/logos/icon-git.svg';
 import LogoJava from '../../public/images/logos/icons8-java-64.svg';
 import LogoPython from '../../public/images/logos/icons8-python-64.svg';
