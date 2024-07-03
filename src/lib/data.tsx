@@ -91,11 +91,11 @@ export const TECHNOLOGIES: TechDetails[] = [
     logo: LogoHibernate,
     url: 'https://hibernate.org/',
   },
-  {
-    label: 'Thymeleaf',
-    logo: LogoThymeleaf,
-    url: 'https://www.thymeleaf.org/',
-  },
+  // {
+  //   label: 'Thymeleaf',
+  //   logo: LogoThymeleaf,
+  //   url: 'https://www.thymeleaf.org/',
+  // },
   {
     label: 'Python',
     logo: LogoPython,
