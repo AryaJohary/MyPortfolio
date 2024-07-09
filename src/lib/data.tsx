@@ -26,6 +26,8 @@ import ProblemSolvingC from '../../public/images/certificates/ProblemSolvinginC.
 import SoftwareTesting from '../../public/images/certificates/SoftwareTesting.jpg';
 import TheJoyOfPython from '../../public/images/certificates/TheJoyofPython.jpg';
 
+import InternAICTE from '../../public/files/AIML_Virtual_Internship.png';
+import InternFinanzo from '../../public/files/Offer_Letter_Finanzo.jpg';
 
 import {
   CertificationDetails,
@@ -91,11 +93,6 @@ export const TECHNOLOGIES: TechDetails[] = [
     logo: LogoHibernate,
     url: 'https://hibernate.org/',
   },
-  // {
-  //   label: 'Thymeleaf',
-  //   logo: LogoThymeleaf,
-  //   url: 'https://www.thymeleaf.org/',
-  // },
   {
     label: 'Python',
     logo: LogoPython,
@@ -128,14 +125,14 @@ export const EXPERIENCES: ExperienceDetails[] = [
     logo: LogoFinanzo,
     logoAlt: 'Finanzo Logo',
     position: 'Intern',
-    startDate: new Date(2024, 6),
+    startDate: new Date(2024, 5),
     // endDate: new Date(2023, 7),
     currentlyWorkHere: true,
     summary: [
       'Web Developer Intern',
       'Collaborated with developers, designers, and interns to develop a fully functional website, which is now live and serving users effectively.',
     ],
-    url:'#', // TODO:- Add the Internship Offer Letter Finanzo
+    url:'https://drive.google.com/file/d/1-rfianTx4cCFnMaFlxy5gj1-VFmeyTot/view?usp=sharing', 
   },
   {
     logo: LogoAICTE,
