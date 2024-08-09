@@ -35,7 +35,7 @@ const AboutMeSection = () => {
           </Typography>
           <Typography>
             I&apos;m Arya Kumar Johary, a passionate and self-motivated tech enthusiast
-            specializing in java development and machine learning. I thrive on
+            specializing in Java Development. I thrive on
             transforming innovative ideas into reality with robust, scalable,
             and efficient code. My dedication to user experience, clean design, and
             high-performance development is reflected in every project I undertake.
@@ -47,7 +47,7 @@ const AboutMeSection = () => {
             Jaipur. Since then, I have continuously honed my skills, tackling new
             challenges and embracing the latest technologies. Now, in my early
             twenties, I&apos;m building sophisticated applications using cutting-edge
-            tools like Java, JSP, MySQL, React.js, Node.js, and Unity.
+            tools like Java, Spring Boot, Hibernate JPA, MySQL and MongoDB.
           </Typography>
           <Typography>
             I pride myself on being a progressive thinker, always eager to innovate
