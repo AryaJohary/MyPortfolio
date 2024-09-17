@@ -4,7 +4,7 @@ import Button from '@/components/general/button';
 
 
 const cvpath = '../../../public/files/Arya_Kumar_Johary.pdf'
-const gdrivecvpath = 'https://drive.google.com/file/d/1xPu2bz8ADE3SVmStrYf7ZMVHY3s4VZ8p/view?usp=sharing'
+const gdrivecvpath = 'https://drive.google.com/file/d/17-lzXJRs5bNJh5Q8BeCGm6jmPUT64HHG/view?usp=sharing'
 const DownloadCV = () => {
   return (
     <Button onClick={() => window?.open(gdrivecvpath, '_blank')}>
