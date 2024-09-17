@@ -13,6 +13,7 @@ import LogoPython from '../../public/images/logos/icons8-python-64.svg';
 import LogoAICTE from '../../public/images/logos/AICTE Logo Vector.svg';
 import LogoFinanzo from '../../public/images/logos/FinanzoLogo.png';
 
+import ProjectCD from '../../public/images/projects/cd.png';
 import ProjectPM from '../../public/images/projects/pm.png';
 import ProjectEMS from '../../public/images/projects/ems.png';
 import ProjectLDC from '../../public/images/projects/ldc.png';
@@ -150,6 +151,21 @@ export const EXPERIENCES: ExperienceDetails[] = [
 ];
 
 export const PROJECTS: ProjectDetails[] = [
+  {
+    name: 'College Directory API',
+    description:
+      'A role-based College Directory Application built using Java Spring Boot and Hibernate JPA with PostgreSQL as the database. Provides secure login and access control for students, faculty members, and administrators. Supports creating, updating, and deleting student and faculty profiles, with real-time data updates. Admins have full CRUD functionality for managing all users and their details.',
+    url: 'https://github.com/AryaJohary/CollegeDirectory',
+    previewImage: ProjectCD,
+    technologies: [
+      'Java',
+      'Spring Boot',
+      'Hibernate JPA',
+      'Spring Security',
+      'RESTful API',
+      'Postman',
+    ],
+  },
   {
     name: 'Employee Management System',
     description:
