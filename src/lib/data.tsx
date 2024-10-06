@@ -156,7 +156,7 @@ export const PROJECTS: ProjectDetails[] = [
     name: 'Assignment Tracker',
     description:
       'A Classroom Assignment Management System built using Java Spring Boot and PostgreSQL as the database. Provides secure role-based access for teachers and students. Supports assignment creation, submission management, and viewing assignment details, with real-time data updates. Teachers can create and manage assignments, while students can submit and track their assignments.',
-    url: 'https://github.com//AryaJohary//AssignmentTracker',
+    url: 'https://github.com/AryaJohary/AssignmentTracker',
     previewImage: ProjectAT,
     technologies: [
       'Java',
