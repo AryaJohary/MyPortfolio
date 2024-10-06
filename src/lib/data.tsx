@@ -20,6 +20,7 @@ import ProjectLDC from '../../public/images/projects/ldc.png';
 import ProjectPC from '../../public/images/projects/pc.png';
 import ProjectZR from '../../public/images/projects/zr.png';
 import ProjectM from '../../public/images/projects/mousey.png';
+import ProjectAT from '../../public/images/projects/at.png';
 
 import ProgrammingInJava from '../../public/images/certificates/ProgrammingInJava.jpg';
 import IntroToC from '../../public/images/certificates/IntroToC.jpg';
@@ -151,6 +152,22 @@ export const EXPERIENCES: ExperienceDetails[] = [
 ];
 
 export const PROJECTS: ProjectDetails[] = [
+  {
+    name: 'Assignment Tracker',
+    description:
+      'A Classroom Assignment Management System built using Java Spring Boot and PostgreSQL as the database. Provides secure role-based access for teachers and students. Supports assignment creation, submission management, and viewing assignment details, with real-time data updates. Teachers can create and manage assignments, while students can submit and track their assignments.',
+    url: 'https://github.com//AryaJohary//AssignmentTracker',
+    previewImage: ProjectAT,
+    technologies: [
+      'Java',
+      'Spring Boot',
+      'Hibernate JPA',
+      'Thymeleaf',
+      'Spring Security',
+      'RESTful API',
+      'Postman',
+    ],
+  },
   {
     name: 'College Directory API',
     description:
