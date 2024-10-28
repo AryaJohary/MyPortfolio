@@ -128,7 +128,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
     logoAlt: 'Finanzo Logo',
     position: 'Intern',
     startDate: new Date(2024, 5),
-    endDate: new Date(2024, 9),
+    endDate: new Date(2024, 8),
     currentlyWorkHere: false,
     summary: [
       'Web Developer Intern',
