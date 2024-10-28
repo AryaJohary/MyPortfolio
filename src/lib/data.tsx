@@ -21,6 +21,8 @@ import ProjectPC from '../../public/images/projects/pc.png';
 import ProjectZR from '../../public/images/projects/zr.png';
 import ProjectM from '../../public/images/projects/mousey.png';
 import ProjectAT from '../../public/images/projects/at.png';
+import ProjectAC from '../../public/images/projects/ac.png';
+
 
 import ProgrammingInJava from '../../public/images/certificates/ProgrammingInJava.jpg';
 import IntroToC from '../../public/images/certificates/IntroToC.jpg';
@@ -184,18 +186,17 @@ export const PROJECTS: ProjectDetails[] = [
     ],
   },
   {
-    name: 'Employee Management System',
+    name: 'Auth Check 3',
     description:
-      'An interactive Employee Management System made using HTML and CSS with Java as its backend and SQL as Database. Provides user the facility of Login, Adding new Employees, Updating Employee Details and Deleting existing employee records. All data being saved on SQL server.',
-    url: 'https://github.com/AryaJohary/Employee_Management_System',
-    previewImage: ProjectEMS,
+      'AuthCheck3 is built on top of the Phoenix authentication system, enhancing it with Google OAuth integration alongside traditional login methods and email notifications. It features secure email verification for traditional logins and OAuth2 for Google logins, with both flows testable via the /dev/mailbox route. The code is well-commented for easy understanding.',
+    url: 'https://github.com/AryaJohary/Auth_Check3',
+    previewImage: ProjectAC,
     technologies: [
-      'Java',
-      'JSP',
-      'MySQL',
-      'Servlet',
-      'HTML',
-      'CSS',
+      'Elixir',
+      'Phoenix Framework',
+      'Ecto',
+      'OAuth2',
+      'PostgreSQL',
     ],
   },
   {
@@ -209,6 +210,21 @@ export const PROJECTS: ProjectDetails[] = [
       'Java Swing',
       'AES',
       'MySQL',
+    ],
+  },
+  {
+    name: 'Employee Management System',
+    description:
+      'An interactive Employee Management System made using HTML and CSS with Java as its backend and SQL as Database. Provides user the facility of Login, Adding new Employees, Updating Employee Details and Deleting existing employee records. All data being saved on SQL server.',
+    url: 'https://github.com/AryaJohary/Employee_Management_System',
+    previewImage: ProjectEMS,
+    technologies: [
+      'Java',
+      'JSP',
+      'MySQL',
+      'Servlet',
+      'HTML',
+      'CSS',
     ],
   },
   {
