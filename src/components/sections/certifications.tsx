@@ -1,3 +1,5 @@
+"use client";
+
 import { CERTIFICATIONS } from '@/lib/data';
 import Tag from '@/components/data-display/tag';
 import CertificationDetails from '@/components/data-display/certification-details';
