@@ -3,31 +3,66 @@ import Tag from '@/components/data-display/tag';
 import CertificationDetails from '@/components/data-display/certification-details';
 import Typography from '@/components/general/typography';
 import Container from '@/components/layout/container';
+import Image from 'next/image';
+import { useState } from 'react';
 
-const CertificationSection = () => {
+const CertificationsList: React.FC = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const handleScroll = (direction: 'left' | 'right') => {
+    if (direction === 'left' && currentIndex > 0) {
+      setCurrentIndex(currentIndex - 1);
+    } else if (direction === 'right' && currentIndex < CERTIFICATIONS.length - 1) {
+      setCurrentIndex(currentIndex + 1);
+    }
+  };
+
   return (
-    <Container id="certifications" className="bg-gray-50">
-      <div className="flex flex-col items-center gap-4">
-        <div className="self-center">
-          <Tag label="Certifications" />
-        </div>
-        <Typography variant="subtitle" className="max-w-xl text-center">
-          Certifications I have achieved:
-        </Typography>
-      </div>
-
-      <div className="flex gap-4 overflow-x-auto py-4 no-scrollbar">
-        <div className="flex-shrink-0 flex gap-4">
-          {CERTIFICATIONS?.map((certification, index) => (
-            <CertificationDetails
-              key={index}
-              {...certification}
-            />
-          ))}
+    <Container>
+      <Typography variant="h2" className="text-center mb-6">
+        Certifications
+      </Typography>
+      <div className="relative">
+        <div className="flex items-center justify-between">
+          <button
+            onClick={() => handleScroll('left')}
+            disabled={currentIndex === 0}
+            className="p-2 text-xl"
+          >
+            ←
+          </button>
+          <div className="w-full flex items-center overflow-hidden">
+            {CERTIFICATIONS.map((cert, index) => (
+              <div
+                key={cert.certification}
+                className={`mx-4 transition-transform duration-300 ${
+                  index === currentIndex
+                    ? 'scale-105 opacity-100'
+                    : 'scale-95 opacity-50'
+                }`}
+              >
+                <CertificationDetails
+                  organisationName={cert.organisationName}
+                  organisationAvatar={cert.organisationAvatar}
+                  certification={cert.certification}
+                  issueDate={cert.issueDate}
+                  url={cert.url}
+                  certificatePic={cert.certificatePic}
+                />
+              </div>
+            ))}
+          </div>
+          <button
+            onClick={() => handleScroll('right')}
+            disabled={currentIndex === CERTIFICATIONS.length - 1}
+            className="p-2 text-xl"
+          >
+            →
+          </button>
         </div>
       </div>
     </Container>
   );
 };
 
-export default CertificationSection;
+export default CertificationsList;
