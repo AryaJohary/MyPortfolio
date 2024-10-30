@@ -16,10 +16,12 @@ const SkillsSection = () => {
         </Typography>
       </div>
 
-      <div className="self-center grid grid-cols-3 gap-y-4 md:grid-cols-6 md:gap-y-8 lg:grid-cols-8 lg:gap-y-12">
-        {TECHNOLOGIES.map((technology, index) => (
-          <TechDetails {...technology} key={index} />
-        ))}
+      <div className="flex justify-center">
+        <div className="grid grid-cols-3 gap-y-4 md:grid-cols-6 md:gap-y-8 lg:grid-cols-8 lg:gap-y-12 justify-center">
+          {TECHNOLOGIES.map((technology, index) => (
+            <TechDetails {...technology} key={index} />
+          ))}
+        </div>
       </div>
     </Container>
   );
