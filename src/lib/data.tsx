@@ -98,16 +98,6 @@ export const TECHNOLOGIES: TechDetails[] = [
     url: 'https://hibernate.org/',
   },
   {
-    label: 'Python',
-    logo: LogoPython,
-    url: 'https://www.python.org/',
-  },
-  {
-    label: 'C++',
-    logo: LogoCPP,
-    url: 'https://cplusplus.com/',
-  },
-  {
     label: 'MySQL',
     logo: LogoMySQL,
     url: 'https://www.mysql.com/',
