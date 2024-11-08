@@ -120,13 +120,13 @@ export const EXPERIENCES: ExperienceDetails[] = [
     logoAlt: 'Finanzo Logo',
     position: 'Intern',
     startDate: new Date(2024, 5),
-    endDate: new Date(2024, 8),
+    endDate: new Date(2024, 9),
     currentlyWorkHere: false,
     summary: [
       'Web Developer Intern',
       'Collaborated with developers, designers, and interns to develop a fully functional website, which is now live and serving users effectively.',
     ],
-    url:'https://drive.google.com/file/d/1-rfianTx4cCFnMaFlxy5gj1-VFmeyTot/view?usp=sharing', 
+    url:'https://drive.google.com/file/d/1ZQyC3qI_3u69XxmrRSVrqoPEIy66JagL/view?usp=sharing', 
   },
   {
     logo: LogoAICTE,
