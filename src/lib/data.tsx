@@ -22,6 +22,7 @@ import ProjectZR from '../../public/images/projects/zr.png';
 import ProjectM from '../../public/images/projects/mousey.png';
 import ProjectAT from '../../public/images/projects/at.png';
 import ProjectAC from '../../public/images/projects/ac.png';
+import ProjectACA from '../../public/images/projects/aca.png';
 
 
 import ProgrammingInJava from '../../public/images/certificates/ProgrammingInJava.jpg';
@@ -144,6 +145,19 @@ export const EXPERIENCES: ExperienceDetails[] = [
 ];
 
 export const PROJECTS: ProjectDetails[] = [
+  {
+    name: 'AWS Billing Analysis Tool',
+    description:
+      'This project automates AWS billing data retrieval and analysis, featuring a dashboard for cost trends, detailed reports, and PDF exports. It ensures secure handling of billing information and compliance with privacy regulations.',
+    url: 'https://github.com/AryaJohary/AWS_BillingAnalyzer',
+    previewImage: ProjectACA,
+    technologies: [
+      'Elixir',
+      'Phoenix Framework',
+      'AWS',
+      'Full-Stack Development'
+    ],
+  },
   {
     name: 'Assignment Tracker',
     description:
