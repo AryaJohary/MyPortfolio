@@ -3,13 +3,10 @@ import { Github, Twitter, LinkedinIcon } from 'lucide-react';
 
 import LogoSpring from '../../public/images/logos/resized/icon-spring.svg';
 import LogoHibernate from '../../public/images/logos/resized/icon-hibernate.svg';
-import LogoThymeleaf from '../../public/images/logos/resized/icon-thymeleaf.svg';
 import LogoMySQL from '../../public/images/logos/resized/icon-mysql.svg';
 import LogoTailwindcss from '../../public/images/logos/icon-tailwindcss.svg';
-import LogoCPP from '../../public/images/logos/icons8-c++.svg';
 import LogoGit from '../../public/images/logos/icon-git.svg';
 import LogoJava from '../../public/images/logos/icons8-java-64.svg';
-import LogoPython from '../../public/images/logos/icons8-python-64.svg';
 import LogoAICTE from '../../public/images/logos/AICTE Logo Vector.svg';
 import LogoFinanzo from '../../public/images/logos/FinanzoLogo.png';
 import LogoMetacube from '../../public/images/logos/MetacubeLogo.png';
@@ -31,10 +28,6 @@ import IntroToC from '../../public/images/certificates/IntroToC.jpg';
 import ProblemSolvingC from '../../public/images/certificates/ProblemSolvinginC.jpg';
 import SoftwareTesting from '../../public/images/certificates/SoftwareTesting.jpg';
 import TheJoyOfPython from '../../public/images/certificates/TheJoyofPython.jpg';
-
-import InternAICTE from '../../public/files/AIML_Virtual_Internship.png';
-import InternFinanzo from '../../public/files/Offer_Letter_Finanzo.jpg';
-import InternMetacube from '../../public/files/Offer_Letter_Metacube.png';
 
 import {
   CertificationDetails,
@@ -123,6 +116,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
     logoAlt: 'Metacube Logo',
     position: 'Software Developer Trainee',
     startDate: new Date(2025, 3),
+    endDate: new Date(2025, 9),
     currentlyWorkHere: true,
     summary: [
       'Software Developer Trainee',
