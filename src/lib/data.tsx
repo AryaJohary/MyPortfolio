@@ -12,6 +12,7 @@ import LogoJava from '../../public/images/logos/icons8-java-64.svg';
 import LogoPython from '../../public/images/logos/icons8-python-64.svg';
 import LogoAICTE from '../../public/images/logos/AICTE Logo Vector.svg';
 import LogoFinanzo from '../../public/images/logos/FinanzoLogo.png';
+import LogoMetacube from '../../public/images/logos/MetacubeoLogo.png';
 
 import ProjectCD from '../../public/images/projects/cd.png';
 import ProjectPM from '../../public/images/projects/pm.png';
@@ -33,6 +34,7 @@ import TheJoyOfPython from '../../public/images/certificates/TheJoyofPython.jpg'
 
 import InternAICTE from '../../public/files/AIML_Virtual_Internship.png';
 import InternFinanzo from '../../public/files/Offer_Letter_Finanzo.jpg';
+import InternMetacube from '../../public/files/Offer_Letter_Metacube.png';
 
 import {
   CertificationDetails,
@@ -116,6 +118,18 @@ export const TECHNOLOGIES: TechDetails[] = [
 ];
 
 export const EXPERIENCES: ExperienceDetails[] = [
+  {
+    logo: LogoMetacube,
+    logoAlt: 'Metacube Logo',
+    position: 'Software Developer Trainee',
+    startDate: new Date(2025, 3),
+    currentlyWorkHere: true,
+    summary: [
+      'Software Developer Trainee',
+      'Working with a talented team to enhance my skills and contribute to software development projects as a Software Engineer Trainee at Metacube Software Pvt Ltd.',
+    ],
+    url: 'https://drive.google.com/file/d/1nU5JuFSzMXX6GDgrUvjqp0OOZ-oRR3B8/view?usp=sharing', 
+  },
   {
     logo: LogoFinanzo,
     logoAlt: 'Finanzo Logo',
