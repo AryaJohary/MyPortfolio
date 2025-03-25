@@ -12,7 +12,7 @@ import LogoJava from '../../public/images/logos/icons8-java-64.svg';
 import LogoPython from '../../public/images/logos/icons8-python-64.svg';
 import LogoAICTE from '../../public/images/logos/AICTE Logo Vector.svg';
 import LogoFinanzo from '../../public/images/logos/FinanzoLogo.png';
-import LogoMetacube from '../../public/images/logos/MetacubeoLogo.png';
+import LogoMetacube from '../../public/images/logos/MetacubeLogo.png';
 
 import ProjectCD from '../../public/images/projects/cd.png';
 import ProjectPM from '../../public/images/projects/pm.png';
