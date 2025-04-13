@@ -115,7 +115,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
     logo: LogoMetacube,
     logoAlt: 'Metacube Logo',
     position: 'Software Developer Trainee',
-    startDate: new Date(2025, 3),
+    startDate: new Date(2025, 2),
     endDate: new Date(2025, 9),
     currentlyWorkHere: true,
     summary: [
